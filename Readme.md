@@ -30,7 +30,7 @@ Here you will start with a simple network diagram: two convolution layers with R
 from NetPainter.slices import *
 
 def main():
-	mymodel=Model(1000,1000)
+    mymodel=Model(1000,1000)
     mymodel.Conv2d(res_x=256, res_y=256, channel=3, has_ReLu=True)
     mymodel.Conv2d(res_x=128, res_y=128, channel=128, has_ReLu=True)
     mymodel.Maxpooling(res_x=128, res_y=128, channel=128)
