@@ -171,6 +171,7 @@ Please read these following tips in order to get better using experience:
 - Although `draw_h`, `draw_l`, `draw_w` can be set automatically refer to `res_x`, `res_y`, `channel`, I still strongly recommend you to set these parameters by yourself.
 -  When you find your picture cannot contain the whole network, try to make `img_h`, `img_w` in `Model` **bigger**. Of course you can set them smaller if you find the picture is too big for the network.
 - It is easy and convenient for you to do the secondary processing on other software like PS and PPT. For example you can show the relations between layers using arrows. 
+- You may set `blank` bigger to see how `kernel` (see `kernel` in **'Conv2d'**) works.
 
 
 
