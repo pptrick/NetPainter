@@ -1,6 +1,6 @@
 # NetPainter
 
-NetPainter is a **2D graphic tool** used to show **neural network structure**, based on python. It's very convenient for you to paint your own neural network schematic diagram, only a few lines of code are needed. You will see the simplicity and flexibility of this python-api in the following document. For now, only  'slices' function module is developed, more function modules will be developed in the future.
+NetPainter is a **2D graphic tool** used to show **neural network structure**, based on python. It's very convenient for you to paint your own neural network schematic diagram within a few lines of code. You will see the simplicity and flexibility of this python-api in the following document. For now, only  'slices' function module is developed, more function modules will be developed in the future.
 
 <img src=".\ref\show.png" style="zoom:10" />
 
